@@ -1,0 +1,33 @@
+.navbar-logo {
+    font-weight: 500;
+    color: $white;
+
+    .logo {
+        width: 40px;
+        height: 40px;
+        margin-right: 10px;
+    }
+
+}
+
+.card {
+    .card-img {
+        max-width: 200px;
+        height: auto;
+    }
+
+    .card-title {
+        font-size: 18px;
+        margin-bottom: 4px;
+
+        a {
+            color: $title-color;
+            text-decoration: none;
+
+            &:hover {
+                color: $blue;
+            }
+        }
+
+    }
+}
